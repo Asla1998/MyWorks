@@ -1,0 +1,45 @@
+*{
+    font-family: 'Trebuchet MS';
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+   
+    /* height: 100vh; */
+    background: url("../images/mountain-14.jpg");
+    /* background: linear-gradient(to bottom,rgb(186, 119, 119) 0%,rgb(176, 63, 63) 50%,rgb(195, 35, 35) 100%); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-fluid{
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    text-align: center;
+    
+}
+.container-fluid h1{
+    
+    font-size: 4em;
+    text-shadow: 2px 7px rgb(192, 174, 174);
+    font-weight: bold;
+}
+.content{
+    color: rgb(184, 84, 84);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+    font-size: 1.2em;
+
+    margin-top: 300px;
+    /* margin-left: 500PX; */
+    height: 300px;
+    width: 500px;
+
+}
+  

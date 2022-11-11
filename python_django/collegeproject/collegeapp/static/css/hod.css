@@ -1,0 +1,68 @@
+/* HOD STUDENTS */
+.student h1{
+  font-size: 3rem;
+  position: relative;
+}
+.student h1:after{
+  content: '';
+    width: 180px;
+    position: absolute;
+    margin: 0 auto;
+    height: 3px;
+    background-color: #305bb7;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+    opacity: .8;
+
+}
+/* hod course */
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+}
+
+
+/* hod blog */
+.blogsec .blog-item .blog{
+  height: 250px;
+}
+.blog-item {
+  
+    transition: .5s;
+  }
+  
+  .blog-item:hover {
+    box-shadow: 0 0 30px #CCCCCC;
+  }
+  
+  .blog-date {
+    position: absolute;
+    width: 60px;
+    height: 45px;
+    top: 30px;
+    left: -15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #7AB730;
+  }
+  
+  .blog-date::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: -15px;
+    left: 0;
+    border: 8px solid;
+    border-color: transparent #5f8f25 #5f8f25 transparent;
+    z-index: -1;
+  }
+  

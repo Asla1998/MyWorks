@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student registration form</title>
+    <link rel="stylesheet" href="../static/css/reg.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+       <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    
+    <div class="container">
+        <h1 align="center">REGISTRATION FORM</h1>
+
+        <div class="row align-items-center">
+            <div class="col align-self-center">
+                <div class="table h-100 d-flex align-items-center justify-content-center">
+                    <table>
+                        <tr>
+                            <td>First Name</td>
+                            <td><input type="text" name="text1" placeholder="Ghanendra" class="texts">(Max 50 characters allowed)</td>
+                        </tr>
+                        <tr>
+                            <td>Last Name</td>
+                            <td><input type="text" name="text1" placeholder="Yadav"class="texts">(Max 50 characters allowed)</td>
+                        </tr>
+                        <tr>
+                            <td>Email ID</td>
+                            <td><input type="text" name="text1" placeholder="yGhanendra@gmail.com"class="texts"></td>
+                        </tr>
+                        <tr>
+                            <td>Mobile Number</td>
+                            <td><input type="text" name="text1" placeholder="7842xxxxxx"class="texts">(10 digits allowed)</td>
+                        </tr>
+                        <tr>
+                            <td>Gender</td>
+                            <td><input type="radio" name="gender" value="Male">Male <input type="radio"name="gender" value="Female">Female
+                                <input type="radio"name="gender" value="other">Other
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Date of Birth(DOB)</td>
+                            <td>
+                                <select class="textse">
+                                    <option value="Date" selected>Date:</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                                    <option value="17">17</option>
+                                    <option value="18">18</option>
+                                    <option value="19">19</option>
+                                    <option value="20">20</option>
+                                    <option value="21">21</option>
+                                    <option value="22">22</option>
+                                    <option value="23">23</option>
+                                    <option value="24">24</option>
+                                    <option value="25">25</option>
+                                    <option value="26">26</option>
+                                    <option value="27">27</option>
+                                    <option value="28">28</option>
+                                    <option value="29">29</option>
+                                    <option value="30">30</option>
+                                    <option value="31">31</option>
+            
+                                </select>
+                                <select class="textse">
+                                    <option value="Month" selected>Month:</option>
+                                    <option value="1">Jan</option>
+                                    <option value="2">Feb</option>
+                                    <option value="3">Mar</option>
+                                    <option value="4">Apr</option>
+                                    <option value="5">May</option>
+                                    <option value="6">June</option>
+                                    <option value="7">July</option>
+                                    <option value="8">Aug</option>
+                                    <option value="9">Sep</option>
+                                    <option value="10">Oct</option>
+                                    <option value="11">Nov</option>
+                                    <option value="12">Dec</option>
+                                </select>
+                                <select class="textse">
+                                    <option value="Year">Year:</option>
+                                    <option value="1">1990</option>
+                                    <option value="2">1991</option>
+                                    <option value="3">1992</option>
+                                    <option value="4">1993</option>
+                                    <option value="5">1994</option>
+                                    <option value="6">1995</option>
+                                    <option value="7">1996</option>
+                                    <option value="8">1997</option>
+                                    <option value="9">1998</option>
+                                    <option value="10">1999</option>
+                                    <option value="11">2000</option>
+                                    <option value="12">2001</option>
+                                    <option value="11">2002</option>
+                                    <option value="12">2003</option>
+                                    <option value="11">2004</option>
+                                    <option value="12">2005</option>
+                                    <option value="11">2006</option>
+                                    <option value="12">2007</option>
+                                    <option value="11">2008</option>
+                                    <option value="12">2009</option>
+                                    <option value="11">2010</option>
+                                    <option value="12">2011</option>
+                                    <option value="11">2012</option>
+                                    <option value="12">2013</option>
+                                    <option value="11">2014</option>
+                                    <option value="12">2015</option>
+                                    <option value="11">2016</option>
+                                    <option value="12">2017</option>
+                                    <option value="11">2018</option>
+                                    <option value="12">2019</option>
+                                    <option value="11">2020</option>
+                                    <option value="12">2021</option>
+
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td>
+                                <textarea name="address" id="address" cols="30" rows="10" class="texts"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>City</td>
+                            <td><input type="text" name="text1" placeholder="Bangalore" class="texts">(Max 50 characters allowed)</td>
+                        </tr>
+                        <tr>
+                            <td>Pin Code</td>
+                            <td><input type="text" name="text1" placeholder="560068" class="texts">(Max 6 characters allowed)</td>
+                        </tr>
+                        <tr>
+                            <td>State</td>
+                            <td><input type="text" name="text1" placeholder="karnataka" class="texts">(Max 50 characters allowed)</td>
+                        </tr>
+                        <tr>
+                            <td>Country</td>
+                            <td><input type="text" name="text1" placeholder="India" class="texts"></td>
+                            
+                        </tr>
+                        <tr>
+                            <td>Hobbies</td>
+                            <td>
+                                <input type="checkbox" name="hobby" value="drawing">Drawing
+                                <input type="checkbox" name="hobby" value="singing">Singing
+                                <input type="checkbox" name="hobby" value="dancing">Dancing
+                                <input type="checkbox" name="hobby" value="sketching">sketching <br>
+                                <input type="checkbox" name="hobby" value="others">others
+                                <input type="text" name="hobby" placeholder="Ex. Teaching" class="texts">(Max 50 characters allowed)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Qualification</td>
+                            <td>
+                                <input type="checkbox" name="quali" value="10th">High School(10th)<br>
+                                <input type="checkbox" name="quali" value="12th">Higher School(12th)<br>
+                                <input type="checkbox" name="quali" value="bachelor">Graduation(Bachelor)<br>
+                                <input type="checkbox" name="quali" value="pg">Post Graduation<br>
+                                <input type="checkbox" name="quali" value="phd">Phd<br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center"><input type="submit" class="btn btn-info" value="SUBMIT"> <input type="reset" class="btn btn-info" value="RESET"></td>
+                        </tr>
+                    
+                </table>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+   
+
+  
+    
+    
+</body>
+</html>
